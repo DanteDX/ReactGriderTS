@@ -2,7 +2,7 @@ import { ActionTypes } from "./ActionTypes";
 import { Dispatch } from "redux";
 import axios from "axios";
 
-interface CovidInfo{
+export interface CovidInfo{
   Confirmed: number;
   Deaths: number;
   Recovered: number;
@@ -10,7 +10,7 @@ interface CovidInfo{
   Date: Date;
 }
 
-interface ActionOneDispatch{
+export interface ActionOneDispatch{
   type: ActionTypes.ActionOne;
   payload: CovidInfo[];
 }
