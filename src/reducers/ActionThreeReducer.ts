@@ -12,7 +12,7 @@ export const ActionThreeReducer = (state: ThreePayload[] = initialState, action:
     case ActionTypes.ActionThree:
       return [
         ...state,
-        action.payload
+        ...action.payload
       ]
     default:
       return state

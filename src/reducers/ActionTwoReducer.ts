@@ -12,7 +12,7 @@ export const ActionTwoReducer = (state: ActionTwoPayloadInterface[] = initialSta
     case ActionTypes.ActionTwo:
       return [
         ...state,
-        action.payload
+        ...action.payload
       ]
     default:
       return state

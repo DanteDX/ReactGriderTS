@@ -15,7 +15,7 @@ export const ActionOneReducer = (state: CovidInfo[] = initialState,action:Action
     case ActionTypes.ActionOne:
       return [
         ...state,
-        action.payload
+        ...action.payload
       ]
     default:
       return state;
