@@ -1,5 +1,5 @@
 export enum ActionTypes {
-  ActionOne,
-  ActionTwo,
-  ActionThree
+  ActionOne = "ActionOne",
+  ActionTwo = "ActionTwo",
+  ActionThree = "ActionThree"
 };

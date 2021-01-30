@@ -4,6 +4,7 @@ import First from "./components/First";
 import Second from "./components/Second";
 import Third from "./components/Third";
 import Fourth from "./components/Fourth";
+import Fifth from "./components/Fifth";
 
 
 class App extends Component{
@@ -15,6 +16,7 @@ class App extends Component{
         <Second secondName="This is second name prop speaking" />
         <Third ThirdName="Piyal the ThirdName" ThirdAge={998} />
         <Fourth />
+        <Fifth />
       </div>
     )
   }
