@@ -1,4 +1,5 @@
 import { combineReducers } from 'redux';
+import { ActionOneReducer } from "./ActionOneReducer";
 export const rootReducer = combineReducers({
-  counter: () => 1
+  ActionOne: ActionOneReducer
 });
