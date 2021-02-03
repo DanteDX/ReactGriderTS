@@ -3,7 +3,7 @@ import {ActionOne,CovidInfo} from "../actions/ActionOne";
 import {StoreState} from "../reducers/index";
 
 export interface FifthProps{
-    ActionOne(): any;
+    ActionOne: Function;
     info: CovidInfo[];
 }
 
